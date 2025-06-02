@@ -1,0 +1,50 @@
+﻿html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* background: url('Fon-001.jpg') no-repeat center center fixed;  Прибираємо фон */
+  /* background-size: cover; */
+  font-family: Arial, sans-serif;
+  /* color: white;  Прибираємо колір тексту, щоб задати його в .content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  position: fixed; /* Фіксуємо шапку зверху */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Щоб шапка була над іншим контентом */
+}
+
+.header img {
+  width: 100%; /* Змінено: зображення займає всю ширину */
+  height: 300px; /* auto;  Змінено: автоматична висота, щоб зберегти пропорції */
+  display: block; /* Щоб прибрати пробіли під зображенням */
+}
+
+.content {
+  /* background-color: rgba(0, 0, 0, 0.5);  Прибираємо підложку */
+  padding: 20px 40px;
+  border-radius: 12px;
+  color: rgb(30, 34, 67); /* Задаємо колір тексту */
+  position: relative; /* Щоб контент був над шапкою */
+  z-index: 1; /* Щоб контент був над шапкою */
+}
+
+.content h1 {
+  margin: 0 0 10px;
+  font-size: 2em;
+}
+
+.content p {
+  margin: 5px 0;
+  font-size: 2.2em;
+}
+
+.content a {
+  color: rgb(30, 34, 67); /* Задаємо колір посилань */
+}
