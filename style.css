@@ -14,6 +14,7 @@
 
 .header {
   position: fixed; /* Фіксуємо шапку зверху */
+/*  position: relative; /* Змінено з fixed на relative */
   top: 0;
   left: 0;
   width: 100%;
@@ -33,6 +34,7 @@
   color: rgb(30, 34, 67); /* Задаємо колір тексту */
   position: relative; /* Щоб контент був над шапкою */
   z-index: 1; /* Щоб контент був над шапкою */
+  margin-top: 150px; /* Задайте висоту шапки, щоб текст не перекривався */
 }
 
 .content h1 {
