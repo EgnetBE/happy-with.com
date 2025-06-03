@@ -13,7 +13,7 @@
 }
 
 .header {
-  position: fixed; /* Фіксуємо шапку зверху */
+  position: static; /* Фіксуємо шапку зверху */
   top: 0;
   left: 0;
   width: 100%;
