@@ -28,6 +28,7 @@
 
 .content {
   /* background-color: rgba(0, 0, 0, 0.5);  Прибираємо підложку */
+  padding-top: 320px; /* Висота .header + додатковий простір */
   padding: 20px 40px;
   border-radius: 12px;
   color: rgb(30, 34, 67); /* Задаємо колір тексту */
