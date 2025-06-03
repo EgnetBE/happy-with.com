@@ -7,17 +7,19 @@
   font-family: Arial, sans-serif;
   /* color: white;  Прибираємо колір тексту, щоб задати його в .content */
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
+/*  max-width: 1080px; /* Додано для обмеження ширини контенту на великих екранах */
 }
 
 .header {
-  position: fixed; /* Фіксуємо шапку зверху */
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000; /* Щоб шапка була над іншим контентом */
+    position: fixed;
+    top: 0;
+    width: 100%; /* Змінити */
+    max-width: 1080px; /* Додати */
+    margin: 0 auto; /* Додати */
+    z-index: 1000;
 }
 
 .header img {
@@ -28,10 +30,13 @@
 
 .content {
   /* background-color: rgba(0, 0, 0, 0.5);  Прибираємо підложку */
+  padding-top: 320px; /* Висота .header + додатковий простір */
+  margin-top: 320px; /* Висота .header */
   padding: 20px 40px;
   border-radius: 12px;
   color: rgb(30, 34, 67); /* Задаємо колір тексту */
-  position: relative; /* Щоб контент був над шапкою */
+  position: fixed; /* relative; /* Щоб контент був над шапкою */
+  max-width: 1080px; 
   z-index: 1; /* Щоб контент був над шапкою */
 }
 
