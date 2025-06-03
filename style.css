@@ -14,11 +14,12 @@
 }
 
 .header {
-  position: fixed; /* Фіксуємо шапку зверху */
-  top: 0;
-  left: 0;
-  width: 1080px; /* 100%; */
-  z-index: 1000; /* Щоб шапка була над іншим контентом */
+    position: fixed;
+    top: 0;
+    width: 100%; /* Змінити */
+    max-width: 1080px; /* Додати */
+    margin: 0 auto; /* Додати */
+    z-index: 1000;
 }
 
 .header img {
