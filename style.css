@@ -31,8 +31,8 @@
   padding: 20px 40px;
   border-radius: 12px;
   color: rgb(30, 34, 67); /* Задаємо колір тексту */
-  position: relative; /* Щоб контент був над шапкою */
-  z-index: 1; /* Щоб контент був над шапкою */
+/*  position: relative;  Щоб контент був над шапкою */
+/*  z-index: 1;  Щоб контент був над шапкою */
 }
 
 .content h1 {
