@@ -10,16 +10,15 @@
   align-items: flex-start;
   justify-content: center;
   text-align: center;
-/*  max-width: 1080px; /* Додано для обмеження ширини контенту на великих екранах */
+  max-width: 1080px; /* Додано для обмеження ширини контенту на великих екранах */
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    width: 100%; /* Змінити */
-    max-width: 1080px; /* Додати */
-    margin: 0 auto; /* Додати */
-    z-index: 1000;
+  position: fixed; /* Фіксуємо шапку зверху */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Щоб шапка була над іншим контентом */
 }
 
 .header img {
@@ -36,7 +35,6 @@
   border-radius: 12px;
   color: rgb(30, 34, 67); /* Задаємо колір тексту */
   position: fixed; /* relative; /* Щоб контент був над шапкою */
-  max-width: 1080px; 
   z-index: 1; /* Щоб контент був над шапкою */
 }
 
