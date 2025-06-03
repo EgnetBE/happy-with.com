@@ -32,7 +32,7 @@
   padding: 20px 40px;
   border-radius: 12px;
   color: rgb(30, 34, 67); /* Задаємо колір тексту */
-  position: fixed; /* relative; /* Щоб контент був над шапкою */
+/*  position: fixed; /* relative; /* Щоб контент був над шапкою */
   max-width: 1080px; 
   z-index: 1; /* Щоб контент був над шапкою */
 }
