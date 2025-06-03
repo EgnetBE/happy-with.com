@@ -13,7 +13,7 @@
 }
 
 .header {
-  position: static; /* Фіксуємо шапку зверху */
+  position: fixed; /* Фіксуємо шапку зверху */
   top: 0;
   left: 0;
   width: 100%;
@@ -32,7 +32,8 @@
   padding: 20px 40px;
   border-radius: 12px;
   color: rgb(30, 34, 67); /* Задаємо колір тексту */
-  position: relative; /* Щоб контент був над шапкою */
+  position: fixed; /* relative; /* Щоб контент був над шапкою */
+  max-width: 800px; /* Додано для обмеження ширини контенту на великих екранах */
   z-index: 1; /* Щоб контент був над шапкою */
 }
 
