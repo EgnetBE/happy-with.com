@@ -6,8 +6,8 @@
   /* background-size: cover; */
   font-family: Arial, sans-serif;
   /* color: white;  Прибираємо колір тексту, щоб задати його в .content */
-  display: block;
-  align-items: center;
+  display: flex;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
 }
